@@ -99,6 +99,7 @@ dependencies {
     implementation 'com.tencent.bugly:crashreport:2.6.6.1'
     //运行时权限
     implementation 'com.zhy:mpermission-api:1.0.0'
+    implementation 'com.zhy:mpermission-annotation:1.0.0'
     kapt 'com.zhy:mpermission-compiler:1.0.0'
     //BaseAdapter 提高列表开发效率
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
