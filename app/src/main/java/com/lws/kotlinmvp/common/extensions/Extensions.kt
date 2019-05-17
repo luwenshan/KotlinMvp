@@ -14,7 +14,8 @@ fun View.px2dip(pxValue: Float): Int {
 }
 
 fun durationFormat(duration: Long?): String {
-    val minute = duration!! / 60
+    if (duration == null) return ""
+    val minute = duration / 60
     val second = duration % 60
     return if (minute <= 9) {
         if (second <= 9) {
