@@ -8,7 +8,6 @@ import com.lws.kotlinmvp.R
 import com.lws.kotlinmvp.common.ExtraKey
 import com.lws.kotlinmvp.mvp.base.MvpFragment
 import com.lws.kotlinmvp.mvp.presenter.MinePresenter
-import com.lws.kotlinmvp.mvp.ui.activity.AboutActivity
 import com.lws.kotlinmvp.mvp.ui.activity.WatchHistoryActivity
 import com.lws.kotlinmvp.mvp.ui.adapter.MineAdapter
 import com.lws.kotlinmvp.utils.StatusBarUtil
@@ -81,7 +80,7 @@ class MineFragment : MvpFragment<MinePresenter>() {
         }
 
         iv_about.setOnClickListener {
-            forward(AboutActivity::class.java)
+            showToast("关于")
         }
 
         tv_view_homepage.setOnClickListener {
