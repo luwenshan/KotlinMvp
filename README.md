@@ -1,4 +1,3 @@
-## 解决痛点
 
 ### 抽象
 
@@ -19,6 +18,10 @@
 
 [参考 SmartRefreshTransformer](./app/src/main/java/com/walkud/app/rx/transformer/SmartRefreshTransformer.kt)
 
+### 多状态View
+
+[MultipleStatusView](./multiple-status-view/src/main/java/com/lws/multiplestatusview/MultipleStatusView.java) 封装了页面加载的多种状态，方便切换。
+
 ## 接入的第三方开源库
 
  - [RxJava](https://github.com/ReactiveX/RxJava)
@@ -36,4 +39,4 @@
  - [MPermissions](https://github.com/hongyangAndroid/MPermissions)
  - [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
 
-**项目中的 API 均来自开眼视频，纯属学习交流使用，不得用于商业用途！**
+**项目中的 API 均来自开眼视频，纯属学习交流使用！**
